@@ -65,46 +65,58 @@ const Navbar = () => {
           } min-h-[80vh] md:hidden transition-all duration-700 py-6 px-4`}
           onClick={() => setShowMobileNav((prev) => !prev)}
         >
-          <ul className="flex flex-col gap-2 ">
-            <li
-              className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white transition duration-700 `}
-            >
-              <HashLink smooth to="/#home">
+          <ul className="flex flex-col gap-3">
+            <li>
+              <HashLink
+                smooth
+                to="/#home"
+                className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white block`}
+              >
                 Home
               </HashLink>
             </li>
-            <li
-              className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white transition duration-700 `}
-            >
-              <HashLink smooth to="/#about">
+            <li>
+              <HashLink
+                smooth
+                to="/#about"
+                className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white block`}
+              >
                 About
               </HashLink>
             </li>
-            <li
-              className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white transition duration-700 `}
-            >
-              <HashLink smooth to="#skills">
+            <li>
+              <HashLink
+                smooth
+                to="#skills"
+                className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white block`}
+              >
                 Skills
               </HashLink>
             </li>
-            <li
-              className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white transition duration-700 `}
-            >
-              <HashLink smooth to="#education">
+            <li>
+              <HashLink
+                smooth
+                to="#education"
+                className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white block`}
+              >
                 Education
               </HashLink>
             </li>
-            <li
-              className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white transition duration-700 `}
-            >
-              <HashLink smooth to="#work">
+            <li>
+              <HashLink
+                smooth
+                to="#work"
+                className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white block`}
+              >
                 Work
               </HashLink>
             </li>
-            <li
-              className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white transition duration-700 `}
-            >
-              <HashLink smooth to="#contact">
+            <li>
+              <HashLink
+                smooth
+                to="#contact"
+                className={`font-semibold backdrop-blur-lg bg-black/70 py-2 px-4 rounded-lg text-white block`}
+              >
                 Contact
               </HashLink>
             </li>
