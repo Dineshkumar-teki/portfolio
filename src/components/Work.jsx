@@ -20,7 +20,7 @@ const Work = () => {
       </p>
 
       <div className="flex flex-wrap justify-center gap-5">
-        <div className="bg-slate-800  p-5 rounded-2xl sm:w-[360px] w-full cursor-pointer shadow-lg hover:shadow-blue-700 shadow-slate-600">
+        <div className="bg-slate-800  p-5 rounded-2xl sm:w-[360px] w-full shadow-lg hover:shadow-blue-700 shadow-slate-600">
           <div className="relative w-full h-[230px]">
             <img
               src={rentalvault}
