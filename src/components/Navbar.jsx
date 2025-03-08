@@ -9,7 +9,7 @@ const Navbar = () => {
   const [showMobileNav, setShowMobileNav] = useState(false);
   return (
     <Router>
-      <header className="flex top-6 justify-between items-center fixed w-[90%] rounded-full z-10 border px-7 py-2 backdrop-blur-md bg-white/30">
+      <header className="flex top-6 justify-between items-center fixed w-[90%] rounded-full z-10 border border-gray-600 px-7 py-2 backdrop-blur-md bg-gray-400/50">
         <HashLink smooth to="/#home">
           <img src={logo} alt="logo" className="w-10 object-contain" />
         </HashLink>
